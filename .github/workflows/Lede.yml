@@ -106,7 +106,7 @@ env:
   TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
   WX_TOKEN: ${{ secrets.WX_TOKEN }}
   CURL: ${{ secrets.CURL }}
-  TZ: Asia/Shanghai
+  TZ: Asia/Taipei
 
 jobs:
   build:
