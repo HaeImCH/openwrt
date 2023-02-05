@@ -1,14 +1,10 @@
 --- a/package/lean/default-settings/files/zzz-default-settings
 +++ b/package/lean/default-settings/files/zzz-default-settings
-@@ -1,6 +1,6 @@
+@@ -1,10 +1,10 @@
  #!/bin/sh
  
 -uci set luci.main.lang=zh_cn
 +uci set luci.main.lang=zh_tw
- uci commit luci
- 
- uci set system.@system[0].timezone=CST-8
-@@ -4,7 +4,7 @@ uci set luci.main.lang=zh_cn
  uci commit luci
  
  uci set system.@system[0].timezone=CST-8
