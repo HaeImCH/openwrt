@@ -8,7 +8,7 @@
  uci commit luci
  
  uci set system.@system[0].timezone=CST-8
-@@ -4,7 +4,7 @@ uci set luci.main.lang=zh_tw
+@@ -4,7 +4,7 @@ uci set luci.main.lang=zh_cn
  uci commit luci
  
  uci set system.@system[0].timezone=CST-8
